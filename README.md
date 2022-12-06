@@ -8,8 +8,8 @@ The statistical method known as Bootstrap Aggregating, or "bagging," is a type o
 Bootstrap Aggregating was proposed by Leo Breiman in 1994, who was statistician and had done many research on statistics. It was derived from the concept of bootstrapping which was developed by Bradley Efron
 
 # Algorithm
-  =>Input the Dataset D.
-  =>Let k be the number of bootstrap samples.
+  =>Input the Dataset D.\n
+  =>Let k be the number of bootstrap samples.\n
   =>for i = 1 to k do
      =>Create a bootstrap sample of size n , 𝐷_𝑖 (n < D).
      =>Train the Base Classifier 𝐶_𝑖 on the bootstrap sample 𝐷_𝑖.
